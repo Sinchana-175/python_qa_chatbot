@@ -1,0 +1,107 @@
+[
+  {
+    "topic": "Data Types",
+    "question": "What is the difference between a list and a tuple in Python?",
+    "answer": "Lists are mutable (can be changed after creation), defined with square brackets [], and generally slower. Tuples are immutable (cannot be changed), defined with parentheses (), and are faster and memory efficient."
+  },
+  {
+  "topic": "General Python",
+  "question": "What is Python?",
+  "answer": "Python is a high-level, interpreted, dynamically typed, and object-oriented programming language known for its clear syntax, readability, and versatile libraries used in Web Development, AI/ML, Data Science, and Automation."
+},
+  {
+    "topic": "Functions",
+    "question": "What is a lambda function in Python?",
+    "answer": "A lambda function is a small, anonymous function defined using the `lambda` keyword. It can take any number of arguments but can only have one expression. Syntax: `lambda arguments : expression`."
+  },
+  {
+    "topic": "Memory Management",
+    "question": "How does garbage collection work in Python?",
+    "answer": "Python manages memory automatically using reference counting and a cyclic garbage collector. When an object's reference count drops to zero, its memory is deallocated."
+  },
+  {
+    "topic": "List Comprehensions",
+    "question": "What is a list comprehension?",
+    "answer": "List comprehension offers a shorter syntax to create a new list based on the values of an existing list. Example: `squared = [x**2 for x in range(10)]`."
+  },
+  {
+    "topic": "Decorators",
+    "question": "What is a decorator in Python and how is it used?",
+    "answer": "A decorator is a function that takes another function as an argument, extends its behavior without explicitly modifying it, and returns a new function. Decorators use the `@decorator_name` syntax above a function definition."
+  },
+  {
+    "topic": "Generators",
+    "question": "What is a generator function and how does the yield keyword work?",
+    "answer": "A generator is a function that returns an iterator using the `yield` keyword instead of `return`. Unlike regular functions that return a single value and terminate, generators pause execution and save state, allowing lazy evaluation of large datasets."
+  },
+  {
+    "topic": "OOP Concepts",
+    "question": "What is the difference between __init__ and __new__ in Python?",
+    "answer": "`__new__` is the actual constructor method responsible for creating and returning a new instance of a class. `__init__` is the initializer method that initializes the newly created object's attributes once it exists."
+  },
+  {
+    "topic": "OOP Concepts",
+    "question": "What is inheritance in Python?",
+    "answer": "Inheritance allows a class (child class) to inherit attributes and methods from another class (parent class), promoting code reusability. Python supports single, multiple, and multilevel inheritance."
+  },
+  {
+    "topic": "OOP Concepts",
+    "question": "What is the purpose of the self parameter in class methods?",
+    "answer": "`self` represents the instance of the class. It binds attributes and methods to the specific object created from that class, allowing access to instance attributes."
+  },
+  {
+    "topic": "OOP Concepts",
+    "question": "What are @classmethod and @staticmethod?",
+    "answer": "`@classmethod` takes `cls` as its first argument and can access/modify class state across all instances. `@staticmethod` takes neither `self` nor `cls` and behaves like a regular function scoped inside a class."
+  },
+  {
+    "topic": "List Methods",
+    "question": "What is the difference between append() and extend() on a list?",
+    "answer": "`append(item)` adds a single item to the end of the list (e.g., appending a list adds it as a nested element). `extend(iterable)` iterates through its argument and appends each element individually to the list."
+  },
+  {
+    "topic": "List Methods",
+    "question": "What is the difference between shallow copy and deep copy?",
+    "answer": "A shallow copy (`copy.copy()`) creates a new object but references child elements of the original. A deep copy (`copy.deepcopy()`) recursively copies all nested objects, producing a fully independent duplicate."
+  },
+  {
+    "topic": "Dictionary Methods",
+    "question": "How does the get() method work in Python dictionaries?",
+    "answer": "The `dict.get(key, default)` method returns the value for a given key if it exists in the dictionary; otherwise, it returns `None` (or a specified default value) without raising a `KeyError`."
+  },
+  {
+    "topic": "Exception Handling",
+    "question": "How does try-except-else-finally work in Python?",
+    "answer": "`try` wraps code that might throw an error; `except` catches specific errors; `else` runs if no exceptions occurred; `finally` executes clean-up code regardless of whether an exception was raised."
+  },
+  {
+    "topic": "Scope & Variable Lookup",
+    "question": "What is the LEGB rule in Python?",
+    "answer": "LEGB defines the variable scope lookup hierarchy in Python: Local -> Enclosing -> Global -> Built-in. Python searches these namespaces in order to resolve variable names."
+  },
+  {
+    "topic": "Data Types",
+    "question": "What is the difference between is and == in Python?",
+    "answer": "`==` evaluates whether the values of two objects are equal (equality). `is` checks whether two variables refer to the exact same object in memory (identity)."
+  },
+  {
+    "topic": "Functions",
+    "question": "What are *args and **kwargs in Python function definitions?",
+    "answer": "`*args` allows a function to accept any number of positional arguments as a tuple. `**kwargs` allows a function to accept any number of keyword arguments as a dictionary."
+  },
+  {
+    "topic": "String Methods",
+    "question": "How do join() and split() work on Python strings?",
+    "answer": "`split(separator)` breaks a string into a list of substrings based on the delimiter. `join(iterable)` concatenates a list of strings into one string using a specified separator."
+  },
+  {
+    "topic": "Module & Imports",
+    "question": "What is the purpose of if __name__ == '__main__':?",
+    "answer": "This block ensures that the enclosed code runs only when the Python file is executed directly as the main script, and NOT when it is imported as a module into another file."
+  },
+  {
+    "topic": "Iteration",
+    "question": "What is the difference between range() and enumerate()?",
+    "answer": "`range()` generates a sequence of numbers. `enumerate()` takes an iterable and returns both the loop index and the corresponding value as a tuple during iteration."
+  }
+]
