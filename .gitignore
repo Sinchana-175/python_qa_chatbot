@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Streamlit Cache
+.streamlit/
+
+# Local Vector DB or Temp Files
+*.pkl
+*.db
+.chroma/
+
+# OS Files
+Thumbs.db
+.DS_Store
